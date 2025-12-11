@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(215, 182, 158);
+    justify-content: space-around;
+}
+.hero img{
+    height: 200px;
+    width: 300px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 50px ;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0,0, 0.1);
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+}
+nav h2{
+    color: blue;
+}
+nav ul{
+    color: blue;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+nav ul a:hover{
+    color:#5c5858;
+    font-weight: bold;
+    
+}
+.hero{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-text{
+    width: 50%;
+    min-width: 300px;
+
+}
+.hero-text h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+.hero-text p{
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+
+}
+.btn{
+    background-color:rgb(80, 123, 124);
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: rgb(57, 75, 111);
+    text-align: center;
+}
+.feature{
+    padding: 60px;
+    text-align: center;
+    
+
+}
+.feature h2{
+    margin-bottom: 30px;
+    font-size: 20px;
+   
+}
+.featurebox{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 280px;
+    background: #a59d9d;
+    padding: 25px;
+    box-shadow: #5c5858;
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transform: 0.3s;
+}
+.card:hover{
+    transform: translateY(-9px); 
+}
+.pricing{
+    padding: 60px;
+    text-align: center;
+    background: #fff;
+}
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.pricing-card{
+    width: 250px;
+    padding: 25px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+}
+.pricing-card h2{
+    margin-bottom: 12px;
+}
+.pricing-card button{
+    margin-top: 20px;
+}
+footer{
+    background-color: #615e5e;
+    columns: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
